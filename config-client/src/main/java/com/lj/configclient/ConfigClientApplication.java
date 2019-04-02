@@ -27,4 +27,9 @@ public class ConfigClientApplication {
 	public String hi() {
 		return user;
 	}
+
+	public void updateConfigCenter() {
+		//发送post请求
+		// http://localhost:8882/actuator/bus-refresh
+	}
 }
