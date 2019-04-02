@@ -1,12 +1,21 @@
 spring:
   application:
-    name: config-client-dev
+    name: usercenter #对应git仓库中的配置文件
   cloud:
     config:
-      label: master
       profile: dev
       uri: http://localhost:8888/
-      name: user-center
+      label: master
+      discovery:
+        enabled: true
+        service-id: config-server
 ---
 server:
   port: 8881
+
+---
+eureka:
+  client:
+    service-url:
+      default-zone: http://localhost:8889/eureka/
+
