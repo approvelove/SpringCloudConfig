@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: config-client-dev
+  cloud:
+    config:
+      label: master
+      profile: dev
+      uri: http://localhost:8888/
+      name: user-center
+---
+server:
+  port: 8881
