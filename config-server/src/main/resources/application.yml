@@ -6,7 +6,10 @@ spring:
       server:
         git:
           uri: https://github.com/approvelove/SpringCloudConfig/
-          search-paths: respo
+          search-paths: config-center
+          username: approvelove
+          password: huilanwoaini0
+      label: master
 ---
 server:
   port: 8888
