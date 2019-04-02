@@ -5,8 +5,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/approvelove/SpringCloudConfig/
-          search-paths: config-center
+          uri: https://github.com/approvelove/SpringCloudConfigCenter/
+          search-paths: yml
           username: approvelove
           password: huilanwoaini0
       label: master
