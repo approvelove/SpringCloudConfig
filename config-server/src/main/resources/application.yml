@@ -18,4 +18,4 @@ server:
 eureka:
   client:
     service-url:
-      default-zone: http://localhost:8889/eureka/
+      defaultZone: http://localhost:8889/eureka/ #不可以用deafult-zone，不然你会发现没卵用.
