@@ -15,10 +15,13 @@
 	<name>springcloud-configcenter</name>
 	<description>Demo project for Spring Boot</description>
 
-	<!--<modules>-->
-		<!--<module>config-server</module>-->
-		<!--<module>config-client</module>-->
-	<!--</modules>-->
+	<modules>
+		<module>config-server</module>
+		<module>config-client</module>
+		<module>service-center</module>
+		<module>service-hi</module>
+		<module>service-miya</module>
+	</modules>
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -49,14 +52,5 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
 
 </project>

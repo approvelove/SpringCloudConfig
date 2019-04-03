@@ -6,7 +6,7 @@
 		<groupId>com.lj</groupId>
 		<artifactId>springcloud-configcenter</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<!--<relativePath>../</relativePath> &lt;!&ndash; lookup parent from repository &ndash;&gt;-->
 	</parent>
 	<groupId>com.lj</groupId>
 	<artifactId>service-miya</artifactId>
